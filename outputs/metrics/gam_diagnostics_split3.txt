@@ -1,0 +1,48 @@
+=== gam.check ===
+
+Method: fREML   Optimizer: perf chol
+$grad
+[1]  3.405672e-07  5.014992e-07  2.092915e-04 -3.825595e-04  5.529629e-08
+
+$hess
+              [,1]          [,2]          [,3]          [,4]          [,5]
+[1,]  3.365106e+00  1.115704e-02 -1.779379e-03 -3.125427e-06  1.134950e-03
+[2,]  1.115704e-02  3.466913e+00 -1.936074e-03 -1.136369e-06  1.693354e-03
+[3,] -1.779379e-03 -1.936074e-03  1.361936e+00 -8.695954e-06 -3.314247e-05
+[4,] -3.125427e-06 -1.136369e-06 -8.695954e-06  3.803804e-04  2.290733e-06
+[5,]  1.134950e-03  1.693354e-03 -3.314247e-05  2.290733e-06  3.223725e-01
+
+Model rank =  75 / 75 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                 k'  edf k-index p-value  
+s(BonusMalus)  9.00 7.89    0.89    0.16  
+s(DrivAge)     9.00 8.08    0.88    0.02 *
+s(VehAge)      9.00 3.66    0.91    0.70  
+s(VehPower)    5.00 1.00    0.91    0.72  
+s(Density_log) 5.00 2.00    0.91    0.73  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+$mfrow
+[1] 2 2
+
+
+=== concurvity ===
+                para s(BonusMalus) s(DrivAge) s(VehAge) s(VehPower)
+para           1.000         0.862      0.461     0.947       0.620
+s(BonusMalus)  0.995         1.000      0.608     0.943       0.618
+s(DrivAge)     0.976         0.889      1.000     0.926       0.607
+s(VehAge)      0.999         0.863      0.465     1.000       0.621
+s(VehPower)    0.824         0.702      0.388     0.780       1.000
+s(Density_log) 0.081         0.085      0.034     0.070       0.054
+               s(Density_log)
+para                    0.034
+s(BonusMalus)           0.048
+s(DrivAge)              0.035
+s(VehAge)               0.043
+s(VehPower)             0.033
+s(Density_log)          1.000
+
+Fit time: 2.9 seconds

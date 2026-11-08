@@ -1,0 +1,21 @@
+{
+  "tag": "fremtpl2_E2B_FTTransformer_adam_split1_seed2",
+  "optimizer_meta": {
+    "model": "E2B_FTTransformer_adam",
+    "split": 1,
+    "seed": 2,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "epochs_run": 26,
+    "best_val": 0.24103904618,
+    "threshold": 0.5,
+    "e2_cell": "B",
+    "base_model": "FTTransformer"
+  },
+  "n_collapsed": 0,
+  "params_dead": false,
+  "qk_selective_death": false,
+  "attention_entropy_collapse": false,
+  "min_attention_entropy": 2.2751915626
+}

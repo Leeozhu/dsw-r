@@ -1,0 +1,21 @@
+{
+  "tag": "fremtpl2_E2D_SeqOneTrans_adam_split2_seed2",
+  "optimizer_meta": {
+    "model": "E2D_SeqOneTrans_adam",
+    "split": 2,
+    "seed": 2,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "epochs_run": 48,
+    "best_val": 0.24577595268,
+    "threshold": 0.5,
+    "e2_cell": "D",
+    "base_model": "SeqOneTrans"
+  },
+  "n_collapsed": 0,
+  "params_dead": false,
+  "qk_selective_death": true,
+  "attention_entropy_collapse": null,
+  "min_attention_entropy": null
+}

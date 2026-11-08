@@ -1,0 +1,11 @@
+{
+  "model": "MLP_S",
+  "split": 3,
+  "seed": 3,
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "epochs_run": 107,
+  "best_val": 0.24629064503,
+  "threshold": 0.5
+}

@@ -1,0 +1,6 @@
+"feature","direction","prior_direction","agree"
+"BonusMalus",1,1,TRUE
+"Density_log",1,1,TRUE
+"DrivAge",1,-1,FALSE
+"VehAge",-1,-1,TRUE
+"VehPower",1,1,TRUE

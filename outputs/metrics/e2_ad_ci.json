@@ -1,0 +1,16 @@
+{
+  "comparison": "E2 cell A (healthy) minus cell D (Q/K selective death)",
+  "n_pairs": 6,
+  "mean_diff_pd": 0.0002814550647,
+  "sd_diff": 0.00075892844447,
+  "ci95": [-0.00017315047885, 0.00089141715479],
+  "wilcox_p": 0.6875,
+  "signflip_p_exact": 0.53125,
+  "sign_p": 1,
+  "direction_note": "正差 = A 劣于 D；当前点估计为正（A 的 PD 更高），即失效细胞 D 的指标甚至略优于健康基线",
+  "precommitted_readings": {
+    "ci_wide_includes_0": "写法一（CI 宽、含 0）：强调'无可检出差异'——在 n=6 下差异上界仍仅为 CI 上限量级，且点估计方向为 D 略优；审查程序对 D 无警报输出。",
+    "ci_narrow_excludes_0_D_better": "写法二（CI 窄、不含 0 且为正）：结论增强——失效模型的指标系统性地更好， 是审查失灵的极端形态。",
+    "ci_narrow_excludes_0_D_worse": "写法三（CI 窄、不含 0 且为负）：放弃'无可检出差异'表述，退守'差异量级 （|mean_diff|）远小于失效的结构严重性，且远低于任何警报阈值'—— 此情形需在正文中显式披露并重新措辞。"
+  }
+}

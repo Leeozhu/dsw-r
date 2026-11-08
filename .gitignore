@@ -1,0 +1,13 @@
+# macOS / R session files
+.DS_Store
+.RData
+.Rhistory
+.Rapp.history
+.Rproj.user/
+
+# Local raw data (freMTPL2 via CASdatasets; Porto from Kaggle)
+data/raw/*.csv
+
+# Temporary files
+*.tmp
+*.log

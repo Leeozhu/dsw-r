@@ -1,0 +1,6 @@
+{
+  "model": "TCTParallel",
+  "split": 1,
+  "method": "Permutation Importance",
+  "direction_agreement_rate": 0.8
+}

@@ -1,0 +1,13 @@
+{
+  "model": "E2C_SeqOneTrans_adamw",
+  "split": 2,
+  "seed": 1,
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "epochs_run": 35,
+  "best_val": 0.24615747499,
+  "threshold": 0.5,
+  "e2_cell": "C",
+  "base_model": "SeqOneTrans"
+}

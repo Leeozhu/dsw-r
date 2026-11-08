@@ -1,0 +1,16 @@
+"dataset","model_a","model_b","n_pairs","mean_diff","wilcox_p","perm_p"
+"fremtpl2","GAM","GLM",15,-0.000353081489575498,6.103515625e-05,0
+"fremtpl2","XGBoost","GAM",15,-0.00423502694295243,6.103515625e-05,0
+"fremtpl2","MLP_S","XGBoost",15,0.00383812016043336,6.103515625e-05,0
+"fremtpl2","MLP_L","MLP_S",15,0.00071737574916696,0.00042724609375,5e-04
+"fremtpl2","FTTransformer","MLP_L",15,-0.000681009741470879,0.00262451171875,0.0011
+"fremtpl2","TCTParallel","MLP_S",15,-0.000723853027806276,0.00115966796875,5e-04
+"fremtpl2","TCTParallel","GLM",15,-0.00147384129990084,6.103515625e-05,0
+"fremtpl2","TCT_abl_no_attn","TCTParallel",15,0.000401809091878879,0.02154541015625,0.0283
+"fremtpl2","TCT_abl_no_tcn","TCTParallel",15,0.000587260701287543,0.00262451171875,0.0022
+"fremtpl2","TCT_abl_avg_fusion","TCTParallel",15,0.00014766619676409,0.389404296875,0.3386
+"fremtpl2","E2A_FTTransformer_adamw","E2D_SeqOneTrans_adam",6,0.000281455064698031,0.6875,0.5285
+"fremtpl2","E2B_FTTransformer_adam","E2D_SeqOneTrans_adam",6,-0.000450960653027942,0.03125,0.0295
+"fremtpl2","E2C_SeqOneTrans_adamw","E2D_SeqOneTrans_adam",6,0.000508627011955411,0.15625,0.1231
+"porto","MLP_S","MLP_S_DOUBLECOMP",0,NA,NA,NA
+"porto","MLP_S","MLP_S_CALIBRATED",0,NA,NA,NA

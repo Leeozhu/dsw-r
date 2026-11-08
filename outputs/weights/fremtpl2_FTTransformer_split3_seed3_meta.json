@@ -1,0 +1,11 @@
+{
+  "model": "FTTransformer",
+  "split": 3,
+  "seed": 3,
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "epochs_run": 77,
+  "best_val": 0.24579678019,
+  "threshold": 0.5
+}

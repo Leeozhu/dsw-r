@@ -1,0 +1,12 @@
+{
+  "model": "TCT_abl_avg_fusion",
+  "split": 1,
+  "seed": 3,
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "epochs_run": 55,
+  "best_val": 0.2393627622,
+  "threshold": 0.5,
+  "branch": "avg"
+}

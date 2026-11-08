@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its experiment outputs, please cite it as below."
+type: software
+title: "dsw-r: Transparency Spectrum and Model Verifiability — R Experiment Pipeline"
+version: "2.3"
+date-released: "2026-11-08"
+authors:
+  - name: "Leeozhu"
+license: MIT
+repository-code: "https://github.com/Leeozhu/dsw-r"
+keywords:
+  - model verifiability
+  - transparency spectrum
+  - insurance pricing
+  - actuarial science
+  - transformer
+  - audit
+abstract: >-
+  R experiment pipeline for studying verifiability obligations vs. deep-model
+  opacity in AI pricing models under solvency regulation. Experiments are
+  organized along a transparency spectrum (L0-L4: GLM, GAM/GA2M, XGBoost,
+  MLP, FT/TCN/TCT Transformers), with controlled 2x2 failure injection and
+  component-level audit tools. Datasets: freMTPL2 (main) and Porto (E4 case).

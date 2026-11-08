@@ -1,0 +1,11 @@
+{
+  "model": "TCTParallel",
+  "split": 4,
+  "seed": 1,
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "epochs_run": 28,
+  "best_val": 0.24180076044,
+  "threshold": 0.5
+}

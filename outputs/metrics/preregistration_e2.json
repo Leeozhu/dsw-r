@@ -1,0 +1,22 @@
+{
+  "title": "E2 受控失效注入：2x2 因子设计的判定标准预注册",
+  "design": "输入表示 {FT tokenizer 正确, seq_len=1 误用} x 优化器 {AdamW 健康, Adam 耦合 L2 病理}，细胞 A/B/C/D",
+  "verdict_criteria": {
+    "reproduced": {
+      "definition": "Q/K 投影 max_abs < 1e-30 且 V/O 健康（max_abs > 1e-3），即 qk_selective_death 签名为真",
+      "reporting": "正文报告坍塌轨迹与分组范数表；细胞 D 标记为'复现'"
+    },
+    "partial": {
+      "definition": "Q/K 范数显著低于健康基线（< 基线 1/100）但未触及 1e-30",
+      "reporting": "正文报告'实现依赖性'发现：坍塌幅度对 float32 精度/eps/步数敏感"
+    },
+    "not_reproduced": {
+      "definition": "Q/K 与健康基线无数量级差异",
+      "reporting": "正文作为独立发现报告：旧论文坍塌数字对实现细节敏感；强化'此类数字必须溯源审计工件'的治理结论；旧 .pt 检查点解剖（第 0 阶段）的解释权重上升"
+    }
+  },
+  "commitments": ["无论三档结果如何，表 3（E2 检测矩阵）如实填写全部四个细胞", "不以'结果不理想'为由省略任何细胞", "E2 全部中间工件（权重 rds、meta json）随论文开源", "E1 判读预案见研究方案 §6.2，与本文件共同构成结果-叙事预注册"],
+  "created_at": "2026-10-30 12:09:23 CST",
+  "r_version": "R version 4.6.1 (2026-06-24)",
+  "note": "本文件由 11_preregister.R 首次运行生成，此后不得修改"
+}

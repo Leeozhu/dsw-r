@@ -1,0 +1,19 @@
+{
+  "tag": "fremtpl2_FTTransformer_split1_seed1",
+  "optimizer_meta": {
+    "model": "FTTransformer",
+    "split": 1,
+    "seed": 1,
+    "optimizer": "adamw",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "epochs_run": 23,
+    "best_val": 0.24100723725,
+    "threshold": 0.5
+  },
+  "n_collapsed": 0,
+  "params_dead": false,
+  "qk_selective_death": false,
+  "attention_entropy_collapse": false,
+  "min_attention_entropy": 2.1144581174
+}

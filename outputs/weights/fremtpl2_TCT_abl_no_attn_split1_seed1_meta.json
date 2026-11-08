@@ -1,0 +1,12 @@
+{
+  "model": "TCT_abl_no_attn",
+  "split": 1,
+  "seed": 1,
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "epochs_run": 64,
+  "best_val": 0.23971757384,
+  "threshold": 0.5,
+  "branch": "tcn"
+}
