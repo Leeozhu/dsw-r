@@ -5,7 +5,8 @@ title: "dsw-r: Transparency Spectrum and Model Verifiability — R Experiment Pi
 version: "2.3"
 date-released: "2026-11-08"
 authors:
-  - name: "Leeozhu"
+  - family-names: "Zhu"
+    given-names: "Hang"
 license: MIT
 repository-code: "https://github.com/Leeozhu/dsw-r"
 keywords:
