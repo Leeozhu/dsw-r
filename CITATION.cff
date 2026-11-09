@@ -8,6 +8,7 @@ authors:
   - family-names: "Zhu"
     given-names: "Hang"
 license: MIT
+doi: "10.5281/zenodo.24076358"
 repository-code: "https://github.com/Leeozhu/dsw-r"
 keywords:
   - model verifiability

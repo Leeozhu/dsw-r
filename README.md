@@ -1,5 +1,27 @@
 # dsw-r v2.3：透明度光谱与模型可验证性——R 实验管线
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24076358.svg)](https://doi.org/10.5281/zenodo.24076358)
+
+## 引用本成果（论文参考文献）
+
+> Zhu, H. (2026). *dsw-r: Transparency Spectrum and Model Verifiability — R Experiment Pipeline* (Version 2.3) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24076358
+
+- **Zenodo 归档（含全部代码与实验结果）**：https://doi.org/10.5281/zenodo.24076358
+- **Gitee 镜像**：https://gitee.com/leeozhu/dsw-r
+- **GitHub**：https://github.com/Leeozhu/dsw-r
+
+```bibtex
+@software{zhu2026dswr,
+  author    = {Zhu, Hang},
+  title     = {dsw-r: Transparency Spectrum and Model Verifiability — R Experiment Pipeline},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {2.3},
+  doi       = {10.5281/zenodo.24076358},
+  url       = {https://doi.org/10.5281/zenodo.24076358}
+}
+```
+
 > **版本标识（2026-10 固化）**
 > - **代码版本**：v2.3 = v2 叙事重构管线 + 两轮匿名审校修复 + 冒烟实测修复
 >   - v2.1：修复 GLM offset 丢失、Density=0、张量切片赋值、`nn_sequential(!!!)` 等
